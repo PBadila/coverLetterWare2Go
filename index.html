@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Pita Badila -  Interactive Cover Letter</title>
+</head>
+<body>
+    <div class = "introContainer">
+        <div class="mainIntro">
+            <div class = "imgBox">
+                <img class = "mePic" src = "./imgs/girl.png">
+            </div>
+            <div class = "speechBox">
+                <div class = "speechBubble">
+                    <div class="textBox">
+                        <h1>Hi. I'm Pita.</h1>
+                        <h1>I'm so excited to apply for the Backend Engineering Internship with Ware2Go!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clickBox">
+            <!-- <h1>Welcome to my interactive cover letter! <span class="blink" >CLICK HERE</span></h1> -->
+            <h1>Welcome to my interactive cover letter!</h1>
+            <div class="blinkBox">
+                <h1 class="blink">CLICK HERE</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class = "questionContainer">
+        <h1 class="hmQuestion">Hello Hiring Manager! What is your name?</h1>
+        <div class="inputBox">
+            <input type="text" id="hmName" name="hmName" placeholder="Your name">
+            <button class="hmNameButton"></button>
+        </div>
+    </div>
+
+    <div class="coverLetterPart1 slideup">
+        <div class="wrapper">
+            <div class="typingGreeting">
+              <h1>Dear <span class="manager"></span>,</h1>
+            </div>
+        </div>
+       
+            <div class="slide">
+                <h2>From 2008 to 2017, I ran Steampunk Robotics, a homeschool technology program focused on math, science, and
+                    technology education through project-based learning.
+                 </h2>
+                <h2>My students engaged in web design, game programming, and robotics, participating in various competitions and even participating in President Obama's
+                    White House Science Fair.
+                </h2>
+                <h2>It was teaching coding to these youth that I learned that my ikigai, the passion that
+                    drives me, the thing that I could do fervently for the pure joy of doing it - is programming. 
+                </h2>
+            </div>
+        
+        
+        <div class="skillsAlert fading">
+            <img class="megaPhone" src="./imgs/megaphone.png">
+            <div class ="skillsAnimation"><h1>SOFT SKILLS:</h1></div>
+            <div class="skillBox">
+                <div class="skill skill1">Leadership</div>
+                <div class="skill skill2">Patience</div>
+                <div class="skill skill3">Adaptability</div>
+                <div class="skill skill4">Problem-Solving</div>
+                <div class="skill skill5">Conflict Resolution</div>
+                <div class="skill skill6">Organizational Skills</div>
+                <div class="skill skill7">Creativity</div>
+                <div class="skill skill8">Resilience</div>
+            </div>
+            <button class="skill moreButton"></button>
+           
+        </div>
+
+        
+    </div>
+    <div class="coverLetterPart2">
+        <h1 class="mouseOverSec"><span class="mouse"><img class="mousePic" src="./imgs/mouse.png"></span>Mouse-Over Each Section for More</h1>
+        <div class="otherJobs">
+           
+            <div class="hoverDivStudy">
+                <h2 class="study">I studied Chemical Engineering at Cornell University for 3 years, then went to Georgia Tech, where I received a B.S. in Chemistry.</h2>
+                <h2 class="studyHover">I am an <span class="studySpan">avid researcher</span> and a <span class="studySpan">voracious learner</span>.<br/></h2>
+            </div>
+            <div class="hoverDivSkills">
+               <h2 class="jobSkills">I have worked as a Chemist / Lab Tech.  I also utilized my training in herbalism as the Bulk Herbs Buyer for a local Co-op.</h2>
+                <div class="jobSkillsHover">
+                    <h2 class="hoverSkill">Detail-Oriented</h2>
+                    <h2 class="hoverSkill">Problem Solving</h2>
+                    <h2 class="hoverSkill">Growth Mindset</h2>
+                    <h2 class="hoverSkill" >Autonomy</h2>
+                    <h2 class="hoverSkill" >Decision Making</h2>
+                </div>
+            </div>  
+            <div class="hoverDivPassion">
+                <h2 class="passion">But in February 2024, I decided it was time to pursue a career in line with my <span>TRUE PASSION - </span>Software Engineering.</h2>
+                <h2 class="passionHover">I would code all day and night for FREE! <span class="italPassion"> But I'd MUCH rather you pay me</span></h2>
+            </div>
+        </div>
+        <button class="more2Button"></button>
+
+    </div>
+
+    <div class="coverLetterPart3">
+        <div class="bootcampBox">
+            <h1>In June 2023, I completed a comprehensive Full-Stack bootcamp program where I gained proficiency in a wide range of web development skills and technologies. </h1>
+            <h3 class="campHeader">Drag and drop the icons to the DROP ZONE to read more about my skills.</h3>
+        </div>
+        <!-- <div class="dragDropMainContainer"> -->
+           
+            <!-- <div class="dragDropInnerContainer"> -->
+        <div class="dragContainer">
+                    <div class="draggable icon1" draggable="true" data-icon="./imgs/html.png" data-explanation="HTML" data-head="HTML, CSS, and Javascript for visually appealing, interactive websites">
+                        <img class="dragPic icon1" src="./imgs/html.png">
+                    </div>
+                    <div class="draggable icon2" draggable="true" data-icon="./imgs/css.png" data-explanation="CSS" data-head="HTML, CSS, and Javascript for visually appealing, interactive websites">
+                        <img class="dragPic" src="./imgs/css.png">
+                    </div>
+                    <div class="draggable icon3" draggable="true" data-icon="./imgs/js.png" data-explanation="JavaScript" data-head="Javascript with HTML and CSS client-side and with Node.js server-side ">
+                        <img class="dragPic" src="./imgs/js.png">
+
+                    </div>
+                    <div class="draggable icon4" draggable="true" data-icon="./imgs/node.png" data-explanation="Node.js" data-head="Node.js with JavaScript for server-side development">
+                        <img class="dragPic" src="./imgs/node.png">
+                    </div>
+                    <div class="draggable icon5" draggable="true" data-icon="./imgs/database.png" data-explanation="SQL" data-head="SQL and Sequelize for effective data management">
+                        <img class="dragPic" src="./imgs/database.png">
+                    </div>
+                    <div class="draggable icon6" draggable="true" data-icon="./imgs/react.png" data-explanation="React" data-head="React to build dynamic user interfaces">
+                        <img class="dragPic" src="./imgs/react.png">
+                    </div>
+                    <div class="draggable icon7" draggable="true" data-icon="./imgs/github.png" data-explanation="GitHub" data-head="GitHub for collaboration on projects.">
+                        <img class="dragPic" src="./imgs/github.png">
+                    </div>
+                    <div class="draggable icon8" draggable="true" data-icon="./imgs/tdd.png" data-explanation="TDD" data-head="Test Driven Development and Unit Tests for testing as you code.">
+                        <img class="dragPic" src="./imgs/tdd.png">
+                    </div>
+                    <div class="draggable icon4" draggable="true" data-icon="./imgs/scrum.png" data-explanation="Scrum" data-head="Agile Methodolgies like Scrum for dynamic collaborative product development.">
+                        <img class="dragPic" src="./imgs/scrum.png">
+                    </div>
+                    <div class="draggable icon10" draggable="true" data-icon="./imgs/java.png" data-explanation="Java" data-head="I am currently learning Java.">
+                        <img class="dragPic" src="./imgs/java.png">
+                    </div>
+                    <div class="draggable icon11" draggable="true" data-icon="./imgs/python.png" data-explanation="Python" data-head="I have experience coding in Python.">
+                        <img class="dragPic" src="./imgs/python.png">
+                    </div>
+                    <div class="draggable icon12" draggable="true" data-icon="./imgs/cloud.png" data-explanation="Cloud Tech" data-head="Recently certified in Emerging Technology through ISACA - includes Cloud Computing.">
+                        <img class="dragPic" src="./imgs/cloud.png">
+                    </div>
+                    <div class="draggable icon13" draggable="true" data-icon="./imgs/blockchain.png" data-explanation="Blockchain" data-head="Recently certified in Emerging Technology through ISACA - includes Blockchain Introduction.">
+                        <img class="dragPic" src="./imgs/blockchain.png">
+                    </div>
+                    <div class="draggable icon14" draggable="true" data-icon="./imgs/iot.png" data-explanation="IoT" data-head="Recently certified in Emerging Technology through ISACA - includes Internet of Things.">
+                        <img class="dragPic" src="./imgs/iot.png">
+                    </div>
+                    <div class="draggable icon15" draggable="true" data-icon="./imgs/ai.png" data-explanation="AI" data-head="Recently certified in Emerging Technology through ISACA - includes Artificial Intelligence.">
+                        <img class="dragPic" src="./imgs/ai.png">
+                    </div>
+        </div>
+                
+        <div class="dropZone">
+            <div class="dropHere"></div>
+            <img class="tool" src="./imgs/warehouse1.png">
+            <div class="dropComImg">
+                <img class="dropLaptop" src="./imgs/laptop.png">
+                <div class="explanationBox">
+                    <h1 class="explanationTextBox"></h1>
+                </div>
+                       
+            </div>
+        </div>
+               
+              
+            <!-- </div> -->
+        <!-- </div> -->
+    </div>
+
+    <div class="coverLetterPart4">
+        
+              <div class="picContainer">
+                <div class="linkBox"><a class="featLiveLink" href="https://cvware2go.onrender.com" target="_blank">Live Site</a></div>
+                <img class="displayProject" src="./imgs/cvScreenshot.png">
+              </div>
+              <div class="arrowContainer">
+                <button class="leftArrow"><img class="arrow" src="./imgs/leftArrow.png"></button>
+                <button class="rightArrow"><img class="arrow" src="./imgs/rightArrow.png"></button>
+              </div>
+              <div class="projectContainer">
+                <div class="projectExplain">
+                    <h1 class="projectTitle">Interactive Cover Letter</h1>
+                    <p class="projectDescription">This project is my attempt to stand out to potential employers.  While I will continue to submit cover letters, for someone who wants a break from the usual, they can click the link and learn a little about me, while also seeing my work in action.  This was also a chance for me to practice DOM manipulation and CSS animations. The biggest challenge in this project has been getting the Drag and Drop feature to behave exactly as I want it.</p>
+                    <div class="linkDiv">
+                        <a class="link1" href="https://github.com/PBadila/coverWare2Go" target="_blank">GitHub</a>
+                        <a class="link2" href="#" target="_blank"></a>
+                        <a class="link3" href="#" target="_blank"></a>
+                    </div>
+                </div>
+                
+                <div class="projectSelect">
+                    <div class="projectMiniBoxFeature">
+                            <div class="miniTitleFeat">Interactive Cover Letter</div>
+                       
+                    </div>
+                    <div class="projectMiniBoxVis">
+                       
+                            <img class="miniProjImg slot2Img" src="./imgs/blog.png">
+                            <div class="miniTitle slot2Title">My Blog</div>
+                       
+                    </div>
+                    <div class="projectMiniBoxVis">
+                        <img class="miniProjImg slot3Img" src="./imgs/garden.png">
+                        <div class="miniTitle slot3Title">Community Garden</div>
+                    </div>
+                    
+                </div>
+              </div>
+              <button class="button5"></button>
+    </div>
+
+    <div class="coverLetterPart5">
+        <div class="conImgBox">
+            <img class="constr" src="./imgs/construction.png">
+        </div>
+        <div class="whyExplanationBox">
+            <h2 class="why1">With a strong foundation in backend development and a profound belief in the positive impact technology can have on people's lives, I am excited about the prospect of contributing to Ware2Go's innovative solutions in order fulfillment.</h2><h2 class="why2">During my experience in bootcamp, I honed my skills in building RESTful APIs, gaining hands-on experience in crafting robust and scalable backend systems.</h2>
+            <h2 class="why4">I am confident that my technical skills, combined with my passion for leveraging technology to enhance the business to consumer chain, align well with Ware2Go's values and vision.</h2><h2 class="why5"> I am eager to bring my unique perspective to your esteemed team, contributing to the innovative solutions that define Ware2Go's commitment to technology driven business solutions.</h2>
+            <h2 class="why6">Thank you for taking the time to review my interactive cover letter!</h2><h2 class="why7">I am available for an interview at your convenience and I am really looking forward to the possibility of joining the Ware2Go team!</h2>
+            <a class="resumeDownload" href="./imgs/Pita Badila - Software Engineer - Resume.pdf" download="PB_Resume"  target="_blank">
+                <b>Click here to download my resume.</b>
+            </a>
+            <h1 class="end">HAVE A SUPER DAY!</h1>
+           
+            <img class="paint" src="./imgs/warehouse2.png">
+
+        </div>
+        <div class="hireMe"><img class="hireMeImg" src="./imgs/hireMe.png"></div>
+        <button class="button6"></button>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
